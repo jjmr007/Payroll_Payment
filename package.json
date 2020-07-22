@@ -1,0 +1,22 @@
+{
+  "name": "payroll_payment",
+  "version": "1.0.0",
+  "description": "payroll for erc20 tokens",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjmr007/Payroll_Payment.git"
+  },
+  "keywords": [
+    "payroll"
+  ],
+  "author": "jjmr007",
+  "license": "AGPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/jjmr007/Payroll_Payment/issues"
+  },
+  "homepage": "https://github.com/jjmr007/Payroll_Payment#readme"
+}
