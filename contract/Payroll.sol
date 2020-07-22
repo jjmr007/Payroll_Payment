@@ -166,7 +166,7 @@ contract Payroll {
     function PaySuppliers(address payable _Supplier, uint _aMount) public {
         require(msg.sender == Boss && _aMount < _Token.balanceOf(address(this)));
         _Token.transfer(_Supplier, _aMount);
-        Total_Balance -= _aMount;
+        Total_Balance = Total_Balance.sub(_aMount);
 
     }
     
